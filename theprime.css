@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  background: #fc8019;
+  color: white;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header input {
+  flex: 1;
+  padding: 6px;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-btn {
+  background: white;
+  color: #fc8019;
+  border: none;
+  padding: 6px 10px;
+}
+
+.cart-btn span {
+  background: white;
+  color: #fc8019;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+/* Banner */
+.banner {
+  height: 120px;
+  background: #ffe0c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  display: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.slide.active {
+  display: block;
+}
+
+/* Categories */
+.categories {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.categories button {
+  background: #fc8019;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+/* Food */
+.food-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.food-card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  border-radius: 8px;
+}
+
+.food-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.food-card button {
+  width: 100%;
+  background: #fc8019;
+  color: white;
+  border: none;
+  padding: 6px;
+}
+
+/* Cart */
+.cart {
+  position: fixed;
+  right: -100%;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: white;
+  padding: 10px;
+  box-shadow: -2px 0 6px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+/* Login */
+.login-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: white;
+  padding: 20px;
+  width: 250px;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 6px;
+}
+
+.close-btn {
+  background: gray;
+  color: white;
+  border: none;
+  padding: 6px;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer a {
+  color: #fc8019;
+}
